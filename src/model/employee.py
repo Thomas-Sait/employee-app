@@ -42,10 +42,10 @@ class Employee:
         return self.hourly_salary == other.hourly_salary
     
 
-@staticmethod
-## KEY FUNCTION FOR NAME-BASED ORDERING (QUICK_SORT, BINARY SEARCH)
-def name_key (employee):
-    return employee.name
+    @staticmethod
+    ## KEY FUNCTION FOR NAME-BASED ORDERING (QUICK_SORT, BINARY SEARCH)
+    def name_key(employee):
+        return employee.name
 
 def to_csv_line(self):
 ## Parsed values from csv
